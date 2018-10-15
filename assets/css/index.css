@@ -689,7 +689,7 @@ p, ul{
    color:#546de5;
    font-weight: 700;
 }
-h3, h4, h5,h6{
+h2,h3, h4, h5,h6{
    font-family: 'Lato';
 }
 
@@ -706,4 +706,14 @@ h3, h4, h5,h6{
     cursor: pointer;
 }
 
+.kproject{
+  font-family: 'Lato';
+  font-size: 24px;
+  margin: 0;
+}
 
+.kproject1{
+  font-family: 'Lato';
+  color: #999999;
+  font-size: 18px;
+}
