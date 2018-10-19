@@ -397,68 +397,40 @@
          <div class="col-md-2">
          </div>
       </div>
-      <div class="row kbg2" id="10">
-        
-         <div class="col-md-8">
-         </div>
-         <div class="col-md-2">
-         </div>
-      </div>
-
-
-
-
-
-
-
-      <!-- WIREFRAME image -->
       <div class="row kbg3 kbg1 kimghover" id="10">
-        <div class="col-md-3">
-         </div>
-         <div class="col-md-1" data-toggle="modal" data-target="#wf">
-            <p class="text-center kcen">Landing Page</h6>
-            <img class="img-responsive center-block" src="assets/images/tubby1/ob1.png" alt="bio pic"> </img>
-         </div>
-         <div class="col-md-1" data-toggle="modal" data-target="#wf">
-            <h6 class="text-center kcen">Personality Quiz</h6>
-            <img class="img-responsive center-block" src="assets/images/tubby1/ob2.png" alt="bio pic"> </img>
-         </div>
-         <div class="col-md-1" data-toggle="modal" data-target="#wf">
-            <h6 class="text-center kcen">Match Results</h6>
-            <img class="img-responsive center-block" src="assets/images/tubby1/ob3.png" alt="bio pic"> </img>
-         </div>
-         <div class="col-md-1" data-toggle="modal" data-target="#wf">
-            <h6 class="text-center kcen">Pet Detail Page</h6>
-            <img class="img-responsive center-block" src="assets/images/tubby1/ob4.png" alt="bio pic"> </img>
-         </div>
-          <div class="col-md-1" data-toggle="modal" data-target="#wf">
-            <h6 class="text-center kcen">Meet n Greet</h6>
-            <img class="img-responsive center-block" src="assets/images/tubby1/ob5.png" alt="bio pic"> </img>
-         </div>
-          <div class="col-md-1" data-toggle="modal" data-target="#wf">
-            <h6 class="text-center kcen">Confirmation</h6>
-            <img class="img-responsive center-block" src="assets/images/tubby1/ob6.png" alt="bio pic"> </img>
-         </div>
-          <div class="col-md-3">
-         </div>
-         <!-- Modal -->
-         <div class="modal fade" id="wf" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog" style="margin-top: 0px;">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
-                     <h4 class="modal-title" id="myModalLabel">User Flow</h4>
-                  </div>
-                  <div class="modal-body">
-                     <img class="img-responsive center-block" src="assets/images/glossier/bigwf.png" alt="bio pic" data-toggle="modal" data-target="#wf"> </img>     
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-2">
-         </div>
-      </div>
-
+      <div class="row justify-content-center">
+         <div class="col-md-2"></div>
+         <div class="col-md-8">
+        <div class="row">
+            <a href="assets/images/tubby1/bigob1.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-2">
+               <h6>Landing Page</h6>
+                <img src="assets/images/tubby1/ob1.png" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1800/2000.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-2">
+               <h6>Personality Quiz</h6>
+                <img src="assets/images/tubby1/ob2.png" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-2">
+                <h6>Match Results</h6>
+                 <img src="assets/images/tubby1/ob3.png" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-2">
+                <h6>Pet Detail Page</h6>
+                 <img src="assets/images/tubby1/ob4.png" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-2">
+               <h6>Meet n Greet</h6>
+                 <img src="assets/images/tubby1/ob5.png" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-2">
+               <h6>Confirmation</h6>
+                 <img src="assets/images/tubby1/ob6.png" class="img-fluid">
+            </a>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+</div>
 
       <div class="row">
          <div class="col-md-2">
@@ -535,7 +507,7 @@
          </div>
          <div class="col-md-4">
             <h4 class="ksubhead">Affinity Map</h4>
-              <p>II created an affinity map to synthesize the findings from my usability testing. I grouped user actions and comments into alike categories. Finally, I sorted them into successes, errors, patterns and improvements. </p>
+              <p>I created an affinity map to synthesize the findings from my usability testing. I grouped user actions and comments into alike categories. Finally, I sorted them into successes, errors, patterns and improvements. </p>
               <p>This helped me address issues on the current working prototype and provide design recommendations.  </p>
          </div>
          <div class="col-md-4">
@@ -861,7 +833,12 @@
                });
             </script>
             <script type="text/javascript">
-               
+               $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox({
+            alwaysShowClose: true
+        });
+    })
             </script>
          </body>
       </html>
