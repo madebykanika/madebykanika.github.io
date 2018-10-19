@@ -588,7 +588,6 @@
 }
 
 .modal-content {
-  height: 100%;
   border-radius: 0;
 }
 
@@ -730,4 +729,13 @@ h2,h3, h4, h5,h6{
 }
 .kcen{
   font-size: 12px;
+}
+
+
+.modal-body {
+  overflow: scroll;
+}
+/* overrides the max-width: 100% that you may have on all images */
+.modal-body img {
+  max-width: auto;
 }
