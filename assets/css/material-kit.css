@@ -2707,9 +2707,9 @@ legend {
     color: inherit;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-weight: 600;
+    font-weight: 580;
     font-size: 15px;
-    text-transform: uppercase;
+ /*   text-transform: uppercase; */
     border-radius: 3px;
     letter-spacing: 1.75px;
     transition: color 0.2s ease-in-out;

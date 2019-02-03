@@ -28,13 +28,23 @@
 */
   font-family: 'Playfair Display';
   /*font-family: "HUGEAvantGardeBold", "helvatica", "arial", serif;*/
-  padding-top: 10rem;
+  padding-top: 110px;
   /*padding-bottom: 7rem;*/
   margin-left: -10rem;
   color: #232323;
   /*text-align: center;*/
-  font-size: 9rem;
+  font-size: 50px;
   line-height: 8rem;
+}
+
+.blurb1 {
+
+  padding-top: 60px;
+  /*padding-bottom: 7rem;*/
+  margin-left: -10rem;
+  color: #232323;
+  /*text-align: center;*/
+  font-size: 6rem;
 }
 
 @media (max-width: 845px) {
