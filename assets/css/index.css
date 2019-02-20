@@ -9,6 +9,17 @@
   margin-left: -10rem;
 }
 
+#content-post_7z7f18bd0 #section_c9srqccwp {
+    padding-top: 8.222222222222221rem;
+    padding-bottom: 8.222222222222221rem;
+    background-color: transparent;
+}
+
+.containerk{
+      max-width: 1410px;
+}
+
+
 .blurb2 {
   /*    background-color: #f7f7f7;
 */
@@ -671,39 +682,41 @@ button:active {
 }
 
 .herohead1 {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 17px;
+  margin:15px 0;
 }
 
 .herohead2 {
  font-family: 'Roboto Slab';
   color:#546de5;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 p, ul{
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 17px;
-  line-height: 30px;
+  line-height: 31px;
 }
 
 .kfoot{
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 16px;
 }
 
 
 .kfoot1{
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 14px;
 }
 .ksubhead{
-   font-family: 'Lato';
+   font-family: 'Roboto';
    font-weight: 600;
    font-size: 21px;
 }
 .ksubhead1{
-   font-family: 'Lato';
+   font-family: 'Roboto';
    font-weight: 600;
 }
 .kbg{
@@ -731,7 +744,7 @@ p, ul{
    font-weight: 700;
 }
 h2,h3, h4, h5,h6{
-   font-family: 'Lato';
+   font-family: 'Roboto';
 }
 
 .modal-dialog{
@@ -748,13 +761,13 @@ h2,h3, h4, h5,h6{
 }
 
 .kproject{
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 24px;
   margin: 0;
 }
 
 .kproject1{
-  font-family: 'Lato';
+  font-family: 'Roboto';
   color: #999999;
   font-size: 18px;
 }
