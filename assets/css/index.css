@@ -4,6 +4,12 @@ video::-webkit-media-controls-mute-button {}
 video::-webkit-media-controls-timeline {}
 video::-webkit-media-controls-current-time-display {}
 
+.vsc-initialized{
+   margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
 .link-app {
     width: 210px;
     border: 1px solid #333333;
