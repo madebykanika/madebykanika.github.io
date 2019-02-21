@@ -1,5 +1,30 @@
+video::-webkit-media-controls-play-button {}
+video::-webkit-media-controls-volume-slider {}
+video::-webkit-media-controls-mute-button {}
+video::-webkit-media-controls-timeline {}
+video::-webkit-media-controls-current-time-display {}
 
+.link-app {
+    width: 210px;
+    border: 1px solid #333333;
+    margin: 0px auto;
+    padding: 7px;
+    background: transparent;
+    transition: all 0.7s;
+    text-decoration: none;
+}
 
+.invision{
+    font-size: 13px;
+    margin-left: 10px;
+    color: #333333;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    transition: all 0.7s;
+    text-decoration: none;
+}
 .blurb-subtitle {
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
