@@ -30,6 +30,13 @@
   line-height: 20px;
 }
 
+.overheadsol{
+  font-family: 'Open Sans';
+  font-size: 28px;
+
+  line-height: 20px;
+}
+
 .prob{
   font-family: 'Playfair Display';
   font-weight: 700;
@@ -75,15 +82,35 @@ background-color: #fbe5e5;
  margin:-15px 0;
 }
 
+.over33{
+ background-color: #f9f9f9;
+ padding: 70px 0 0 0;
+ margin:-15px 0;
+}
+
+
 .goals {
   padding: 100px 0;
 }
 
 .goals1 {
-  padding: 10px 0;
+  padding: 10px 0 40px 0;
 }
+
+.goal2 {
+  padding: 0 0 70px 0;
+}
+
+.goals2 {
+  padding: 150px 0 0px 0;
+}
+
 .pad{
  padding-bottom:  40px;
+}
+
+.pad1{
+ padding-bottom:  100px;
 }
 
 
@@ -95,6 +122,25 @@ background-color: #fbe5e5;
   line-height: 2;
   margin-top:15px;
 }
+
+.hmw {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color:#888888;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top:30px;
+}
+
+
+ul{
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color:#0a0a14;
+  font-size: 16px;
+  line-height: 2;
+}
+
 
 .bodytext1 {
   font-family: 'Open Sans';
@@ -836,11 +882,6 @@ button:active {
   margin-bottom: 30px;
 }
 
-p, ul{
-  font-family: 'Roboto';
-  font-size: 17px;
-  line-height: 31px;
-}
 
 .kfoot{
   font-family: 'Roboto';
