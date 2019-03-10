@@ -1,3 +1,49 @@
+/* about page */
+
+.abouthead {
+  font-family: 'PT Sans';
+  font-size: 22px;
+
+}
+
+.probabout{
+  font-family: 'Playfair Display';
+  color: #888888;
+  font-size: 20px;
+  text-align: center;
+}
+
+.who{
+  font-family: 'Playfair Display';
+  color: #888888;
+  font-size: 20px;
+}
+
+
+.abouttext {
+  font-family: 'PT Sans';
+  font-weight: 500;
+  color:#0a0a14;
+  font-size: 20px;
+ line-height: 28px;
+  margin-top:15px;
+}
+
+
+
+.proboppor{
+  font-family: 'PT Sans';
+  color: #0a0a14;
+  font-size: 40px;
+  text-align: center;
+}
+
+.team1{
+  padding: 80px 0 40px 0;
+}
+
+
+
 .numberCircle1 {
     width: 30px;
     line-height: 30px;
@@ -25,13 +71,13 @@
 }
 
 .overhead{
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-size: 14px;
   line-height: 20px;
 }
 
 .overheadsol{
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-size: 28px;
 
   line-height: 20px;
@@ -43,6 +89,14 @@
   color: #546de5;
   font-size: 40px;
 }
+
+.prob{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  color: #546de5;
+  font-size: 28 spx;
+}
+
 
 .prob1{
   font-family: 'Playfair Display';
@@ -72,7 +126,7 @@ background-color: #fbe5e5;
 }
 
 .impact{
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-size: 14px;
   line-height: 20px;
   text-align: center;
@@ -97,6 +151,9 @@ background-color: #fbe5e5;
  margin:-15px 0;
 }
 
+.bg{
+  background-color: #f9f9f9;
+}
 
 .goals {
   padding: 100px 0;
@@ -118,6 +175,11 @@ background-color: #fbe5e5;
   padding: 150px 0 0px 0;
 }
 
+.goalsabout {
+  padding: 100px 0 0 0;
+}
+
+
 .pad{
  padding-bottom:  40px;
 }
@@ -127,7 +189,7 @@ background-color: #fbe5e5;
 }
 
 .thanks{
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-weight: 500;
   color:#0a0a14;
   font-size: 24px;
@@ -138,7 +200,7 @@ background-color: #fbe5e5;
 }
 
 .bodytext {
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-weight: 500;
   color:#0a0a14;
   font-size: 16px;
@@ -147,7 +209,7 @@ background-color: #fbe5e5;
 }
 
 .impact1{
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-weight: 400;
   color:#333333;
   font-size: 21px;
@@ -158,7 +220,7 @@ background-color: #fbe5e5;
   }
 
 .hmw {
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-weight: 500;
   color:#333333;
   font-size: 30px;
@@ -168,7 +230,7 @@ background-color: #fbe5e5;
 
 
 ul{
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-weight: 500;
   color:#0a0a14;
   font-size: 16px;
@@ -177,7 +239,7 @@ ul{
 
 
 .bodytext1 {
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-weight: 500;
   color:#0a0a14;
   font-size: 16px;
@@ -902,7 +964,7 @@ button:active {
 }
 
 .herohead1 {
-  font-family: 'Open Sans';
+  font-family: 'PT Sans';
   font-size: 18px;
   margin:15px 0;
   text-align: center;
@@ -960,9 +1022,7 @@ button:active {
    color:#546de5;
    font-weight: 700;
 }
-h2,h3, h4, h5,h6{
-   font-family: 'Roboto';
-}
+
 
 .modal-dialog{
     position: relative;
