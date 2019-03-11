@@ -13,6 +13,33 @@
   text-align: center;
 }
 
+.probq{
+  font-family: 'Playfair Display';
+  color: #333333;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+
+.probq1{
+  font-family: 'Playfair Display';
+  color: #333333;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.2;
+    margin-top:30px;
+}
+
+
+.probq2{
+  font-family: 'Playfair Display';
+  color: #333333;
+  font-size: 32px;
+  line-height: 1.2;
+    margin-top:30px;
+}
+
 .who{
   font-family: 'Playfair Display';
   color: #888888;
@@ -75,6 +102,11 @@
 
 .fullwrapper {
   background-color: #f9f9f9;
+}
+
+
+.fullwrapperpink {
+  background-color: #f8dbe1;
 }
 
 .overhead{
@@ -154,6 +186,10 @@ background-color: #fbe5e5;
 
 .bg{
   background-color: #f9f9f9;
+}
+
+.goalsdel {
+  padding: 70px 0;
 }
 
 .goals {
