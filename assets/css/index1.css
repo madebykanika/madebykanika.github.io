@@ -19,6 +19,13 @@
   font-size: 20px;
 }
 
+.probabt{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  color: #546de5;
+  font-size: 32px;
+}
+
 
 .abouttext {
   font-family: 'PT Sans';
@@ -90,12 +97,6 @@
   font-size: 40px;
 }
 
-.prob{
-  font-family: 'Playfair Display';
-  font-weight: 700;
-  color: #546de5;
-  font-size: 28 spx;
-}
 
 
 .prob1{
