@@ -21,6 +21,13 @@
   line-height: 1.2;
 }
 
+.probhigh{
+  font-family: 'Playfair Display';
+  color: #546de5;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
 
 .probq1{
   font-family: 'Playfair Display';
@@ -109,6 +116,9 @@
   background-color: #f8dbe1;
 }
 
+.fullwrappertubby{
+   background-color: #fff1e5;
+}
 .overhead{
   font-family: 'PT Sans';
   font-size: 14px;
